@@ -1,0 +1,125 @@
+/* Start Global Rules */
+* {
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+        background-color: #f4f4f4;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container {
+    width: 80%;
+    margin: auto auto;
+    
+}
+img {
+    width: 100%;
+}
+.clear {
+    clear: both;
+}
+/* End Global Rules */
+/* Start form */
+.froms {
+    background-color: white;
+}
+
+.from {
+    float: left;
+    width: 50%;
+    padding: 20px 30px;
+}
+
+.title-form {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #666;
+}
+.des-title {
+    font-size: 15px;
+    margin-bottom: 10px ;
+    color: #666;
+    
+}
+/* Start list */
+.list {
+    float:left;
+    width: calc(100% / 3 - 10px);
+    margin-left: 5px ;
+    margin-right: 5px ;
+    margin-bottom: 10px;
+}
+.title-list {
+    color: #cccccc;
+    margin-bottom: 5px;
+}
+ul li {
+    margin-bottom: 5px ;
+    color: #666;
+}
+/* End list */
+/* Start form input */
+.input input {
+    margin-bottom: 10px ;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    color: #666;
+    font-size: 15px;
+    border-bottom: 1px solid #e5e5e5;
+}
+textarea {
+    margin-bottom: 10px ;
+    width: 100%;
+    padding: 5px;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    color: #666;
+    border-bottom: 1px solid #e5e5e5;
+}
+.button {
+    margin-bottom: 5px;
+}
+button {
+    padding: 15px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #e3b04b;
+    color: white;
+    
+}
+/* End form input */
+/* Start sac */
+.sacie {
+    margin-top: 40px ;
+}
+.title-sa {
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.sacie a {
+    margin-right: 15px;
+    font-size: 12px;
+    color: #cccccc;
+}
+/* End sac */
+/* Start background */
+.bac {
+    background-image: url(../image/background.webp);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+/* End background */
+/* End form */

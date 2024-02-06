@@ -1,0 +1,76 @@
+/* Start Global Rules */
+* {
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+img {
+    width: 100%;
+}
+.clear {
+    clear: both;
+}
+/* End Global Rules */
+
+/* Start login */
+
+.box-from {
+    padding: 70px;
+    height: 100vh;
+}
+.from {
+    float: left;
+    width: calc(100% / 2 - 20px);
+    margin: 0 10px;
+
+}
+.title-from {
+    margin-bottom:20px ;
+    font-size: 40px;
+}
+.des-title {
+    font-size: 17px;
+    margin-bottom: 20px;
+    color: #d2d1d1;
+}
+.imega {
+    padding: 40px;
+}
+/* Start from */
+.input {
+    margin-bottom: 20px;
+}
+.input input {
+    width: 100%;
+    
+    outline: none;
+    border: none;
+    background-color: #d2d1d1;
+    padding: 15px;
+    color: #7b8ab0;
+    border-radius: 5px;
+}
+textarea {
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: #d2d1d1;
+    padding: 15px;
+    color: #7b8ab0;
+    border-radius: 5px;
+}
+.button-send button {
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+}
+/* End from */
+/* End login */
